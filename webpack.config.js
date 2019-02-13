@@ -20,7 +20,7 @@ module.exports = {
     context: path.join(__dirname, "src"),
     devtool: dev ? "none" : "source-map",
     entry: {
-        app: "./server.js",
+        app: "./src/server.js",
     },
     resolve: {
         modules: [
